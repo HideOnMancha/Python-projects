@@ -1,0 +1,21 @@
+.alternada{
+    list-style: upper-alpha;
+    font-size: 30px;
+    color: aqua;
+    background-color: brown;
+    width: fit-content;
+
+}
+
+.alternada li:nth-child(odd){
+    background-color: rgb(255, 0, 0);
+}
+
+
+.alternada li:nth-child(even){
+    background-color: rgb(0, 13, 255)
+}
+
+.alternada li:hover{
+    font-weight: bolder;
+}
